@@ -1,0 +1,54 @@
+(let( 有可能多個變數)(...))       
+
+define 有可能多個變數為區域變數
+(define 有可能多個變數) ：
+( let ( (x 3) (y '(1 2 3))  )
+    x 
+    y  ;需要會傳最後一個經過計算的Sexp
+    )
+
+
+(let ((x (1 2 3))) 5)  ; LET-format OK
+  ERROR (attempt to apply non-function) : 1
+
+
+且 (...) 內必須有東西 否則為 format error
+(define 變數如果已經存在 則更新數值)
+
+
+
+
+
+ ( lambda ( zero-or-more-symbols ) one-or-more-S-expressions )
+                                   ^^^^^ for body ^^^^^
+                                   body doesn't need Eval others need 
+                                   if there is more than one Sexp, all of which needed Eval and return the last one result.
+
+ ((lambda (a b) (+ a b)) 3 4)
+    綁定 a = 3
+
+    綁定 b = 4
+
+    執行 body → (+ a b) → (+ 3 4) → 7
+
+ (lambda () 42)  ; 傳回 42，不需要參數
+ 會回傳#procedure (就是把tyoe設為Func)
+ 並且把lamdba的東西儲存在private裡面
+ 然後如果又回去運算
+ 再用lamdba裡面的資料，綁定的function
+ 然後在用後續的參數重新綁定後計算
+ 因為lamdba裡面會有多個body，所以有可能要eval多次後，再回傳最後一個
+ body 和參數都用vector存起來好了，這樣比較方便做運算
+ 參數會需要用個tmp的symbolmap 紀錄，重新綁定參數並且計算完後再把原本的symbolmap 做回復
+ vector<Node*> body ,vector<string> 參數
+
+ 如果參數對不上就會需要throw lambda format error
+
+ 運算過lambda ，會需要檢查後面的參數數量
+ lambda的用處就是一個暫存器，不需要定義的情況才會使用。
+
+ ( define ( SYMBOL zero-or-more-symbols ) one-or-more-S-expressions )
+            ^^^^^^->必定要有一個SYMBOL
+
+ (define (h x y) (+ x 20 a))   後面的算是都先不用管，h 為function name x y 為參數
+ 需要執行後面所有的Sexp
