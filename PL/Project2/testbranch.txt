@@ -1,0 +1,334 @@
+7-3
+int first ;
+int second, max ;
+cin >> First ; int first ;
+cin >> first 
+    >> second ;
+if ( ( first > second ) && ( second > 0 ) )
+  max = first ;
+else if ( ( first > second ) && ( -3 > second ) )
+  max = first ;
+else
+  max = second ;
+if ( ( first > second ) && ( second > 0 ) ) )
+  max = first ;
+else
+  max = second ;
+while ( ( max >= ( first - second ) 
+        )
+        ||
+        ( max > 100 ) 
+      ) {
+  first = first + sacond ;
+  max-- ;
+} // while ( max >= 0 )
+
+while ( ( max >= ( first - second ) 
+        )
+        ||
+        ( max > 100 ) 
+      ) {
+  first = first + second ;
+  max-- ;
+} // while ( max >= 0 )
+cout << "Value of first is : " << first << "\n" ;
+cout << "Value of max is : " << max << "\n" ;
+  ( first = max ) ;
+  ( ( first + max1
+    ) 
+  ) ;
+1000 > first ;
+Done() ;
+
+
+
+
+/*
+Our-C running ...
+> Definition of first entered ...
+> Definition of second entered ...
+Definition of max entered ...
+> Line 1 : undefined identifier : 'First'
+> Statement executed ...
+> Statement executed ...
+> Line 1 : unexpected token : ')'
+> Statement executed ...
+> Line 1 : unexpected token : 'else'
+> Statement executed ...
+> Line 6 : undefined identifier : 'sacond'
+> Statement executed ...
+> Line 1 : unexpected token : '}'
+> Statement executed ...
+> Statement executed ...
+> Statement executed ...
+> Statement executed ...
+> Line 1 : undefined identifier : 'max1'
+> Line 1 : unexpected token : ')'
+> Line 1 : unexpected token : ')'
+> Statement executed ...
+> Our-C exited ...
+
+*/
+
+
+12-3
+int AddFive(){return 5;}//int this,is,a,book;
+int AddTwo( int x ) { return x + 2 ; } // comment
+int AddFive( int x ) { int y ; y = AddTwo( x ) ; // comment
+                       return y + 3 ; }          // comment
+int Factorial( int n, int m ) {
+  z = n + m ;
+  return z ;
+} // Factorial()
+ListAllFunctions() ;
+ListFunction( "AddFive" ) ;
+int x ;
+x = 100 ;
+x = x + AddFive( x ) ;
+if ( x > 200 )
+  x = AddTwo( 300 ) ;
+else
+  x = x + AddFive( 200 ) + 5 ;
+if ( AddTwo( x ) > 200 )
+  x = 5 + AddThree( 300 ) ;
+else
+  x = x + AddFive( 200 ) + 5 ;
+Done() ;
+
+
+/*
+Our-C running ...
+> Definition of AddFive() entered ...
+> Definition of AddTwo() entered ...
+> New definition of AddFive() entered ...
+> Line 2 : undefined identifier : 'z'
+> Line 1 : undefined identifier : 'z'
+> Line 1 : unexpected token : '}'
+> AddFive()
+AddTwo()
+Statement executed ...
+> int AddFive( int x ) {
+  int y ;
+  y = AddTwo( x ) ;
+  return y + 3 ;
+}
+Statement executed ...
+> Definition of x entered ...
+> Statement executed ...
+> Statement executed ...
+> Statement executed ...
+> Line 2 : undefined identifier : 'AddThree'
+> Line 1 : unexpected token : 'else'
+> Statement executed ...
+> Our-C exited ...
+*/
+
+
+
+3
+int test ;
+char test ; // re-define 'test'
+int salary[30] ;
+void InputSalary( int revenue[ 30 ] ) {
+ int i ;
+ i = 0 ;
+ while ( i < 30 ) {
+ cin >> revenue[ i ]
+ i++ ; 
+ i=i+1;
+ } // while ( i < 30 )
+} // InputSalary()
+void InputSalary( int revenue[ 30 ] ) {
+ int i ;
+ i = 0 ;
+ while ( i < 30 ) {
+ cin >> revenue[ i ] ;
+ i++ ;
+ } // while ( i < 30 )
+} // InputSalary()
+void Sort(int intArray[30]) {
+ int i;
+ i=0;
+ while(i<29){
+ int j;
+ j=i;
+ while(j<30){
+ if(intArray[j]<intArray[i]){
+ int temp;
+ temp=intArray[i];
+ intArray[i]=intArray[j];
+ intArray[j] =temp;
+ } // if intArray[ j ] < intArray[ i ]
+ j++ ;
+ } // while j < 30
+ i++ ;
+ } // while i < 29
+} // Sort()
+void InputSalary( int revenue[ 30 ] ) { // semantic error
+ int i ;
+ i = 0 ;
+ while ( i < 30 ) {
+ cout << revenue[ i ] ;
+ i++ ;
+ } // while ( i < 30 )
+} // InputSalary()
+void InputSalary( int revenue[ 30 ] ) {
+ int i ;
+ i = 0 ;
+ while ( i < 30 ) {
+ cin >> revenue[ i ] ;
+ i++ ;
+ } // while ( i < 30 )
+} // InputSalary()
+void OutputSalary( int revenue[ 30 ] ) {
+int i ;
+ i = 0 ;
+ while ( i < 30 ) {
+ cout << revenue[ i ] ;
+ i++ ;
+ } // while ( i < 30 )
+} // OutputSalary()
+ListAllFunctions() ;
+ListFunction( "Sort" ) ;
+InputSalary( salary ) ;
+Sort( salary ) ;
+OutputSalary( salary ) ;
+Done() ;
+
+
+3
+int first,second,
+max;
+cin
+    >>first>>second;cin>>first;
+if ( ( first>(second-5)*
+                        max ) && ( second > 0 ) )
+  if ( second > -35 )
+    max=35
+         -second;
+  else 
+    max = second - 35 ;
+else { // NOT ( ( first > second ) && ( second > 0 ) )
+  second++ ;
+  max = second ;
+} // else
+
+if ( ( first > second ) && ( second > 0 ) )
+  if ( second > -35 )
+    max = 35 - second ;
+  else 
+    max = second - 35 }
+else { // NOT ( ( first > second ) && ( second > 0 ) )
+  second++ ;
+  max = second ;
+} // else
+
+while ( ( max >= ( first - second ) 
+        )
+        ||
+        ( max > 100 ) 
+      ) {
+  if ( first > 5 )
+    first = first + ;
+  while ( second + 5 > first )
+    first++ ;
+} // while ( max >= 0 )
+
+while ( ( max >= ( first - second ) 
+        )
+        ||
+        ( max > 100 ) 
+      ) {
+  if ( first > second )
+    first = first + second ;
+  while ( second + 5 > first )
+    first++ ;
+} // while ( max >= 0 )
+max = first > second ? first : second ;
+cout << "Value of first is : " << first << "\n" ;
+cout << "Value of max is : " << max << "\n" ;
+Done() ;
+
+
+3
+int test ;
+char test ;  // re-define 'test'
+
+int salary[30] ;
+
+void InputSalary( int revenue[ 30 ] ) {
+  int i ;
+  i = 0 ;
+  while ( i < 30 ) {
+    cin >> revenue[ i ]
+    i++ ; 
+    i=i+1;
+  } // while ( i < 30 )
+} // InputSalary()
+
+void InputSalary( int revenue[ 30 ] ) {
+  int i ;
+  i = 0 ;
+  while ( i < 30 ) {
+    cin >> revenue[ i ] ;
+    i++ ;
+  } // while ( i < 30 )
+} // InputSalary()
+
+void Sort(int intArray[30]) {
+  int i;
+  i=0;
+  while(i<29){
+    int j;
+    j=i;
+    while(j<30){
+      if(intArray[j]<intArray[i]){
+      int temp;
+      temp=intArray[i];
+      intArray[i]=intArray[j];
+      intArray[j] =temp;
+      } // if intArray[ j ] < intArray[ i ]
+      j++ ;
+    } // while j < 30
+    i++ ;
+  } // while i < 29
+} // Sort()
+
+void InputSalary( int revenue[ 30 ] ) { // semantic error
+  int i ;
+  i = 0 ;
+  while ( i < 30 ) {
+    cout << revenue[ i ] ;
+    i++ ;
+  } // while ( i < 30 )
+} // InputSalary()
+
+void InputSalary( int revenue[ 30 ] ) {
+  int i ;
+  i = 0 ;
+  while ( i < 30 ) {
+    cin >> revenue[ i ] ;
+    i++ ;
+  } // while ( i < 30 )
+} // InputSalary()
+
+void OutputSalary( int revenue[ 30 ] ) {
+  int i ;
+  i = 0 ;
+  while ( i < 30 ) {
+    cout << revenue[ i ] ;
+    i++ ;
+  } // while ( i < 30 )
+} // OutputSalary()
+
+ListAllFunctions() ;
+
+ListFunction( "Sort" ) ;
+
+InputSalary( salary ) ;
+
+Sort( salary ) ;
+
+OutputSalary( salary ) ;
+
+Done() ;
